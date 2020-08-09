@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chương trình nhập điểm của một sinh viên cho các môn: Vật lý, Hóa học, và Sinh học. Sau đó hiển thị điểm trung bình và tổng của những điểm này.</title>
+</head>
+<body>
+<script>
+    let a = prompt("Nhập điểm Vật lý :");
+    let b = prompt("Nhập điểm Hoá học :");
+    let c = prompt("Nhập điểm Sinh học :");
+    let vatly = parseInt(a);
+    let hoahoc = parseInt(b);
+    let sinhhoc = parseInt(c);
+    let tongdiem = (vatly + hoahoc + sinhhoc);
+    let diemtrungbinh = (vatly + hoahoc + sinhhoc)/3;
+    document.write("tổng điểm : " + tongdiem + " điểm trung bình : " + diemtrungbinh);
+
+</script>
+</body>
+</html>
